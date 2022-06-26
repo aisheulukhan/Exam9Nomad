@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to top, #000);
+}
+header .container{
+    padding-top: 10%;
+}
+header h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+header p{
+    font-size: 20px;
+    color: white;
+}
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+nav .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+nav .nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+nav ul li{
+    padding: 10px;
+}
+.main1 p{
+    text-align: justify;
+}
+@media screen and (max-width: 983px) {
+    .main2 .d-flex {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 772px) {
+    .main2 .d-flex img{
+      width: 100%;
+    }
+    .main2 .d-flex desc{
+        width: 100%;
+      }
+      .main2 #carouselDarkVariant{
+        width: 100%;
+      }
+
+  }
+  @media screen and (max-width: 1392px) {
+    .main3 .gallery {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+  
+.main4{
+    background-color: #F9F9F9;
+}
+.main5 form button:hover{
+    background-color: rgb(234, 195, 1);
+    color: white;
+    transition: 0.6s;
+
+}
+.main5 form button{
+    padding: 15px 80px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+footer .icons{
+    display: flex;
+    justify-content: flex-end;
+}
+footer .icons i{
+    font-size: 18px;
+    padding: 5px;
+    
+}
+footer .icons i:hover{
+    color: white;
+}
